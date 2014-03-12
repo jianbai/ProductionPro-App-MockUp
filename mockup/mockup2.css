@@ -1,0 +1,146 @@
+@font-face {
+	font-family: "Univers";
+	src: url("../univers.ttf");
+}
+
+html {
+	font-family: "Univers";
+	background-color: #3473ba;
+	color: white;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 44px;
+	min-width: 700px;
+}
+
+#intro {
+	display: block;
+	text-align: center;
+	min-width: 700px;
+}
+
+#intro p {
+	margin: 2px auto;
+}
+
+#grid {
+	border: 5px dashed #88bded;
+	border-radius: 5%;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#text {
+	display: inline-block;
+	float: left;
+	background-color: #88bded;
+	width: 480px;
+	height: 640px;
+	color: black;
+	font-family: "courier";
+	padding: 10px;
+	margin: 20px;
+	border-radius: 1%;
+}
+
+#side {
+	display: inline-block;
+	width: 135px;
+	height: 660px;
+	margin-top: 1px;
+	margin-left: 2px;
+	margin-right: 20px;	
+}
+
+h2 {
+	color: #88bded;
+	text-align: center;
+	font-size: 22px;
+}
+
+#slugHead {
+	color: #d03b25;
+}
+
+#actionHead {
+	color: #202cc7;
+}
+
+#charHead {
+	color: #d7d935;
+}
+
+#diaHead {
+	color: #144d34;
+}
+
+div.category {
+	height: 130px;
+	position: relative;
+}
+
+div.rules {
+	position: absolute;
+	top: 35px;
+}
+
+.doc_element {
+	border-style: solid;
+	border-color: transparent;
+	border-width: 1px;
+}
+
+div.ind {
+	margin-left: 30px;
+}
+
+div.rule {
+	width: 135px;
+	height: 30px;
+	background-color: #88bded;
+	margin: 5px 0px;
+	border-radius: 8%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.tomato {
+	border-color: #d03b25;
+	color: #d03b25;
+}
+
+.aqua {
+	border-color: #202cc7;
+	color: #202cc7;
+}
+
+.white {
+	border-color: #d7d935;
+	color: #d7d935;
+}
+
+.coral {
+	border-color: #144d34;
+	color: #144d34;
+}
+
+#format {
+	width: 135px;
+	height: 55px;
+	background-color: #ed462f;
+	margin-top: 25px;
+	border-radius: 5%;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

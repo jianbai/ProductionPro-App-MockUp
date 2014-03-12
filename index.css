@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Univers";
+	src: url("univers.ttf");
+}
+
+html {
+	font-family: "Univers";
+	background-color: #3473ba;
+	color: white;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 44px;
+	min-width: 700px;
+}
+
+#intro {
+	display: block;
+	text-align: center;
+	min-width: 700px;
+}
+
+#intro p {
+	margin: 2px auto;
+}
+
+#grid {
+	border: 5px dashed #88bded;
+	border-radius: 5%;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#button {
+	border: 1px solid #ed462f;
+	border-radius: 100%;
+	background-color: #ed462f;
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+}
+
+h2 {
+	display: block;
+	margin-top: 80px;
+}

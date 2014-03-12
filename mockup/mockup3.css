@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "Univers";
+	src: url("../univers.ttf");
+}
+
+html {
+	font-family: "Univers";
+	background-color: #3473ba;
+	color: white;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 44px;
+	min-width: 700px;
+}
+
+#intro {
+	display: block;
+	text-align: center;
+	min-width: 700px;
+}
+
+#intro p {
+	margin: 2px auto;
+}
+
+#grid {
+	border: 5px dashed #88bded;
+	border-radius: 5%;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#text {
+	display: inline-block;
+	float: left;
+	background-color: #88bded;
+	width: 640px;
+	height: 640px;
+	color: black;
+	font-family: "courier";
+	margin: 20px;
+	border-radius: 1%;
+	padding: 10px;
+}
+
+p.action {
+	display: block;
+}
+
+p.character {
+	display: block;
+	margin-left: 200px;
+}
+
+p.dialogue {
+	display: block;
+	margin-left: 100px;
+}
+
+#export {
+	display: block;
+	width: 250px;
+	height: 60px;
+	background-color: #ed462f;
+	border-radius: 5%;
+	text-align: center;
+	font-size: 40px;
+	margin: 20px auto;
+	padding-top: 10px;
+}
+
+.tooltip {
+	display: none;
+}
+
+
+.doc_element {
+	border-style: solid;
+	border-color: transparent;
+	border-width: 1px;
+}
+
+div.ind {
+	margin-left: 30px;
+}
+
+.tomato {
+	border-color: #d03b25;
+	color: #d03b25;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+

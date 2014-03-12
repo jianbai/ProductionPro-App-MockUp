@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assisted Parsing!</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mockup2.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>ProductionPro</h1>
+		<div id="intro">
+			<p>Parse your script into standard screenplay format:</p>
+			<p>1. Input your formatting rules</p>
+			<p>2. Adjust and correct</p>
+			<p>3. Get a perfectly formatted screenplay</p>
+		</div>
+		<div id="grid">
+			<div id="text">
+				<div class='slugline doc_element u'><u>Billy & Grandma</u></div><br />
+				
+				<div class='character doc_element b up'><b>BILLY</b></div>
+				<div class='line doc_element ind'>Hello Grandma.</div><br />
+
+				<div class='character doc_element b up'><b>GRANDMA</b></div>
+				<div class='line doc_element ind'>Hello, son.</div><br />
+
+
+				<div class='character doc_element b up'><b>BILLY</b></div>
+				<div class='line doc_element ind'>Grandma, I found this in the airing cupboard.</div><br />
+
+				<div class='character doc_element b up'><b>GRANDMA</b></div>
+				<div class='line doc_element ind'>What the hell is that?</div><br />
+
+
+				<div class='character doc_element b up'><b>BILLY</b></div>
+				<div class='line doc_element ind'>It's your pasty.</div><br />
+
+				<div class='character doc_element b up'><b>GRANDMA</b></div>
+				<div class='line doc_element ind'>Thank the Lord, I thought they'd eaten it.</div><br />
+
+				<div class='character doc_element b up'><b>BILLY</b></div>
+				<div class='line doc_element ind'>Nobody‘d eat that, Grandma. It's mank.</div><br />
+
+				<div class='action doc_element i'><i>Grandma seasons the pastry</i></div><br />
+				
+
+				<div class='character doc_element b up'><b>GRANDMA</b></div>
+				<div class='line doc_element ind'>You lot have it too bloody easy. I can remember the General Strike...</div><br />
+
+				<div class='character doc_element b up'><b>BILLY</b></div>
+				<div class='line doc_element ind'>Grandma! You'll make yourself ill. Look, it's got mould on it.
+				Eeeugh!
+				</div>
+			</div>
+			<div id="side">
+				<div class="category" id="sluglines">
+					<h2 id="slugHead">Sluglines</h2>
+					<div class="rules">
+						<input type="checkbox" value="Bold" id="slugBold">Bold</input> <br />
+						<input type="checkbox" value="Italic" id="slugItalic">Italic</input> <br />
+						<input type="checkbox" value="Underline" id="slugUnder">Underline</input> <br />
+						<input type="checkbox" value="Uppercase" id="slugUpper">Uppercase</input> <br />
+						<input type="checkbox" value="Indent" id="slugIndent">Indent</input> 
+					</div>
+				</div>
+				<div class="category" id="action">
+					<h2 id="actionHead">Action</h2>
+					<div class="rules">
+						<input type="checkbox" value="Bold" id="actionBold">Bold</input> <br />
+						<input type="checkbox" value="Italic" id="actionItalic">Italic</input> <br />
+						<input type="checkbox" value="Underline" id="actionUnder">Underline</input> <br />
+						<input type="checkbox" value="Uppercase" id="actionUpper">Uppercase</input> <br />
+						<input type="checkbox" value="Indent" id="actionIndent">Indent</input> 
+					</div>
+				</div>
+				<div class="category" id="character">
+					<h2 id="charHead">Character</h2>
+					<div class="rules">
+						<input type="checkbox" value="Bold" id="charBold">Bold</input> <br />
+						<input type="checkbox" value="Italic" id="charItalic">Italic</input> <br />
+						<input type="checkbox" value="Underline" id="charUnder">Underline</input> <br />
+						<input type="checkbox" value="Uppercase" id="charUpper">Uppercase</input> <br />
+						<input type="checkbox" value="Indent" id="charIndent">Indent</input>  
+					</div>
+				</div>
+				<div class="category" id="dialogue">
+					<h2 id="diaHead">Dialogue</h2>
+					<div class="rules">
+						<input type="checkbox" value="Bold" id="diaBold">Bold</input> <br />
+						<input type="checkbox" value="Italic" id="diaItalic">Italic</input> <br />
+						<input type="checkbox" value="Underline" id="diaUnder">Underline</input> <br />
+						<input type="checkbox" value="Uppercase" id="diaUpper">Uppercase</input> <br />
+						<input type="checkbox" value="Indent" id="diaIndent">Indent</input> 
+					</div>
+				</div>
+				<a href="mockup3.html">	
+					<div id="format">
+						Format
+					</div>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="mockup2.js"></script>
+	</body>
+</html>
